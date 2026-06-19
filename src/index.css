@@ -1,0 +1,21 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Sidebar {
+  flex-basis: 25%;
+}
+
+.MainContent {
+  flex-basis: 75%;
+}
+
