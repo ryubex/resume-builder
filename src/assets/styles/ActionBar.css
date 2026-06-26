@@ -1,0 +1,52 @@
+footer{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-top: 3px solid #121c23;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1;
+
+  padding: 18px 12px;
+
+  background: #020814;
+  color: #fff;
+
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 8px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.preview-btn:hover {
+  background: linear-gradient(180deg, #223044 0%, #162131 100%);
+  transform: translateY(-1px);
+}
+
+.preview-btn:active {
+  transform: translateY(0);
+}
+
+.preview-btn svg {
+  stroke-width: 2.2;
+}

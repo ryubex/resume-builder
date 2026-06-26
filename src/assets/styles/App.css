@@ -1,5 +1,5 @@
 :root {
-  --bg: #1f2028;
+  --bg: #020814;
   --text: #ffffff;
   --font: 'PT Sans', sans-serif;
 }
@@ -17,6 +17,15 @@ body {
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
+}
+
+.Center {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
 }
