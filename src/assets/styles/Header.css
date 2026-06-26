@@ -1,0 +1,15 @@
+.header{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+}
+
+img {
+  height: 75%;
+  width: auto;
+}
