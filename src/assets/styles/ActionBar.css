@@ -10,7 +10,7 @@ footer{
   border-top: 3px solid #121c23;
 }
 
-button {
+.actionbar-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -38,15 +38,15 @@ button {
     0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
-.preview-btn:hover {
+.actionbar-btn:hover {
   background: linear-gradient(180deg, #223044 0%, #162131 100%);
   transform: translateY(-1px);
 }
 
-.preview-btn:active {
+.actionbar-btn:active {
   transform: translateY(0);
 }
 
-.preview-btn svg {
+.actionbar-btn svg {
   stroke-width: 2.2;
 }

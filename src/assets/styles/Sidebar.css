@@ -1,0 +1,38 @@
+.sidebar {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-right: 3px solid #121c23;
+}
+
+.sidebar-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 1;
+
+    padding: 18px 12px;
+
+    background: transparent;
+    color: #fff;
+
+    border-radius: 8px;
+    border: none;
+
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.sidebar-btn:active {
+    color: #121c23;
+    background: #fff;
+    transform: translateY(0);
+}
