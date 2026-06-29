@@ -28,3 +28,7 @@ body {
   flex: 1;
   flex-direction: row;
 }
+
+.main {
+  flex: 1;
+}

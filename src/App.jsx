@@ -10,7 +10,7 @@ function App() {
         <Header />
         <div className='Center'>
           <Sidebar />
-          <MainContent />
+          <MainContent className="main"/>
         </div>
         <ActionBar />
     </div>

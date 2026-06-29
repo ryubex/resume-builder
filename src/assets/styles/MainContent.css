@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 12px;
+    margin: 2px 16px;
+
+    border: 3px solid #121c23;
+    border-radius: 8px;
+
+    min-height: 100px;
+}
+
+.part-icon {
+    width: 40px;
+    height: 40px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
