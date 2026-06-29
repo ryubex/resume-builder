@@ -1,0 +1,61 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 2px 16px;
+
+    border: 3px solid #121c23;
+    border-radius: 8px;
+
+    gap: 16px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-input {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.field label {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 2px solid #2d3a46;
+    border-radius: 10px;
+    padding: 0 12px;
+    background: #0d1622;
+}
+
+.input-container input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 0;
+}
+
+.part-icon {
+    width: 40px;
+    height: 40px;
+}
