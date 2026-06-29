@@ -11,7 +11,7 @@ import { CgNotes } from "react-icons/cg";
 export default function Sidebar() {
 
   const sections = [
-    { name: "Contact Info", icon: GoPerson},
+    { name: "General Info", icon: GoPerson},
     { name: "Education", icon: RiGraduationCapLine},
     { name: "Experience", icon: HiOutlineBriefcase},
     { name: "Skills", icon: LuPencil},
