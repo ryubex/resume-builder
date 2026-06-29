@@ -1,0 +1,53 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 2px 16px;
+
+    border: 3px solid #121c23;
+    border-radius: 8px;
+
+    gap: 16px;
+}
+
+.educ-title {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.educ-input {
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid #2d3a46;
+    border-radius: 10px;
+    padding: 0 12px;
+    background: #0d1622;
+}
+
+.educInput-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.educInput-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.educInput-left input {
+    padding: 12px 0;
+}
+
+.educInput-right input {
+    padding: 4px;
+}
+
+.educ-input input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
