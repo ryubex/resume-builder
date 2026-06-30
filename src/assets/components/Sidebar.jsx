@@ -14,9 +14,6 @@ export default function Sidebar() {
     { name: "General Info", icon: GoPerson},
     { name: "Education", icon: RiGraduationCapLine},
     { name: "Experience", icon: HiOutlineBriefcase},
-    { name: "Skills", icon: LuPencil},
-    { name: "Projects", icon: FaRegFolder},
-    { name: "Summary", icon: CgNotes},
   ];
 
 
