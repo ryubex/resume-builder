@@ -3,11 +3,14 @@ import GeneralInfo from './subcomponents/GeneralInfo'
 import Education from './subcomponents/Education'
 import Experience from './subcomponents/Experience'
 
-export default function MainContent() {
+export default function MainContent({ resumeData, setResumeData }) {
 
   return (
     <main className="main">
-      <GeneralInfo />
+      <GeneralInfo 
+        resumeData={resumeData}
+        setResumeData={setResumeData}
+      />
       <Education />
       <Experience />
     </main>
