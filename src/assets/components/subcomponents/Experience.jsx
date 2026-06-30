@@ -1,7 +1,21 @@
 import './styles/Experience.css'
 import {TbCircleNumber3Filled} from "react-icons/tb";
 
-export default function Experience() {
+export default function Experience({ resumeData, setResumeData }) {
+
+    const experience = resumeData.experience;
+
+    function handleChange(e) {
+        const {name,value} = e.target;
+
+        setResumeData((prev) => ({
+            ...prev,
+            experience: {
+                ...prev.experience,
+                [name]: value
+            }
+        }))
+    }
 
   return (
     <div className="experience">
@@ -19,14 +33,26 @@ export default function Experience() {
                     <div className='expInput-leftTop'>
                         <label>Job Title</label>
                         <div className="input-container">
-                            <input type="text" placeholder='Enter School / University'/>
+                            <input 
+                            type="text" 
+                            name="job"
+                            placeholder='Enter Job Title'
+                            value={experience.job}
+                            onChange={handleChange}
+                            />
                         </div>
                     </div>
 
                     <div className='expInput-leftBottom'>
                         <label>Company Name</label>
                         <div className="input-container">
-                            <input type="text" placeholder='Enter Company name'/>
+                            <input 
+                                type="text" 
+                                name="company"
+                                placeholder='Enter Company name'
+                                value={experience.company}
+                                onChange={handleChange}
+                            />
                         </div>
                     </div>
                 </div>
@@ -34,7 +60,13 @@ export default function Experience() {
                 <div className='expInput-right'>
                     <label>Duration of Employment</label>
                     <div className="input-container">
-                        <input type="text" placeholder='e.g. Jan 20xx - Dec 20xx'/>    
+                        <input 
+                            type="text" 
+                            name="duration"
+                            placeholder='e.g. Jan 20xx - Dec 20xx'
+                            value={experience.duration}
+                            onChange={handleChange}
+                        />    
                     </div>
                 </div>
             </div>

@@ -11,8 +11,16 @@ export default function MainContent({ resumeData, setResumeData }) {
         resumeData={resumeData}
         setResumeData={setResumeData}
       />
-      <Education />
-      <Experience />
+
+      <Education 
+        resumeData={resumeData}
+        setResumeData={setResumeData}
+      />
+
+      <Experience 
+        resumeData={resumeData}
+        setResumeData={setResumeData}
+      />
     </main>
   )
 }

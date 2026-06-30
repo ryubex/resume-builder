@@ -12,6 +12,18 @@ function App() {
       name: "",
       email: "",
       phone: ""
+    },
+
+    education: {
+      school: "",
+      degree: "",
+      years: ""
+    },
+
+    experience: {
+      job: "",
+      company: "",
+      duration:""
     }
   })
 
