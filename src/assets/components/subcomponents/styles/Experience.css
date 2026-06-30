@@ -1,4 +1,4 @@
-.education {
+.experience {
     display: flex;
     flex-direction: column;
     padding: 12px;
@@ -10,13 +10,13 @@
     gap: 16px;
 }
 
-.educ-title {
+.exp-title {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
 
-.add-educ {
+.add-exp {
     line-height: 1;
 
     padding: 12px;
@@ -41,7 +41,7 @@
         0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
-.educ-input {
+.exp-input {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -51,30 +51,30 @@
     padding: 16px 12px;
 }
 
-.educ-input label {
+.exp-input label {
     margin-bottom: 6px;
     font-weight: 600;
 }
 
-.educInput-left {
+.expInput-left {
     display: flex;
     flex-direction: column;
     flex: 1;
     gap: 12px;
 }
 
-.educInput-leftTop {
+.expInput-leftTop {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.educInput-leftBottom {
+.expInput-leftBottom {
     display: flex;
     flex-direction: column;
 }
 
-.educInput-right {
+.expInput-right {
     display: flex;
     flex-direction: column;
     width: 220px;

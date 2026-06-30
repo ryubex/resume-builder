@@ -23,7 +23,7 @@ export default function GeneralInfo() {
                     <label>{field.label}</label>
 
                     <div className="input-container">
-                        <input type="text" defaultValue={field.value} />
+                        <input type="text" placeholder={field.value} />
                     </div>
                 </div>
             ))}
